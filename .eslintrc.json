@@ -11,6 +11,8 @@
       "LabeledStatement",
       "WithStatement"
     ],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "no-tabs": 0, // Убираем проверку на tab в качестве отступов.
+    "indent": ["error", "tab"] // Убираем проверку на tab в качестве отступов.
   }
 }
